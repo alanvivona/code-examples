@@ -1,0 +1,32 @@
+h1, h2, h3 {
+  margin: 2em;
+  color: black; }
+
+.box, .redbox, .bluebox {
+  border-width: 0.25em;
+  border-color: red;
+  display: block; }
+
+.redbox {
+  background-color: red;
+  content: 'Red'; }
+
+.bluebox {
+  background-color: red;
+  content: 'Blue'; }
+
+body {
+  font: Arial, sans-serif;
+  color: #8080FF; }
+  body p {
+    background-color: white; }
+
+.div {
+  -webkit-border-radius: 2em;
+  -moz-border-radius: 2em;
+  -ms-border-radius: 2em;
+  border-radius: 2em;
+  margin: 1em;
+  background-color: black; }
+
+/*# sourceMappingURL=example.css.map */

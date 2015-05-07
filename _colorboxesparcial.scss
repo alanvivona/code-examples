@@ -1,0 +1,17 @@
+.box {
+  border-width: 0.25em;
+  border-color: red;
+  display: block;
+}
+
+.redbox{
+  @extend .box;
+  background-color: red;
+  content: 'Red';
+}
+
+.bluebox {
+  @extend .box;
+  background-color: red;
+  content: 'Blue';
+}

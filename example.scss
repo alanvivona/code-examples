@@ -1,0 +1,23 @@
+@import "headersparcial";
+@import "mixinsparcial";
+@import "colorboxesparcial";
+
+
+$default-font:  Arial, sans-serif;
+$default-color: #8080FF;
+
+body {
+  font: $default-font;
+  color: $default-color;
+
+  p {
+    background-color: white;
+  }
+
+}
+
+.div { 
+  @include border-radius(2em); 
+  margin: 1em;
+  background-color: black;
+}
