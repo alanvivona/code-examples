@@ -1,4 +1,5 @@
 # learningML
+
 ## Following some tutorials on machine learning related topics
 
 ### _List of resources used to code the examples on the repo:_
@@ -7,3 +8,12 @@
 - - To build those examples [python](https://www.python.org/downloads/) and [anaconda](https://www.continuum.io/downloads) are needed
 
 - [Blog on machine learning with algorithm implementations in JS] (http://burakkanber.com/blog/machine-learning-in-other-languages-introduction/)
+
+
+# jsexamples
+no readme
+
+
+# learningNodeAPI
+no readme
+
