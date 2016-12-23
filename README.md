@@ -1,11 +1,9 @@
-# learningML - Following google developers tutorials on machine learning
+# learningML - Following some tutorials on machine learning related topics
 
-Youtube Playlist - Machine Learning Recipes
+_List of resources used to code the examples on the repo:_
 
-https://www.youtube.com/watch?v=cKxRvEZd3Mw&index=7&list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal
+- Youtube Playlist - Machine Learning Recipes : https://www.youtube.com/watch?v=cKxRvEZd3Mw&index=7&list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal
 
-How to build this:
+To build those examples python and anaconda are needed (https://www.python.org/downloads/) (https://www.continuum.io/downloads)
 
-1 - Install python from : https://www.python.org/downloads/
-
-2 - Install Anaconda (package manager): https://www.continuum.io/downloads
+- Blog on machine learning with algorithm implementations in JS : http://burakkanber.com/blog/machine-learning-in-other-languages-introduction/
