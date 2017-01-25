@@ -1,0 +1,20 @@
+{
+    "window.zoomLevel": 2,
+    "workbench.sideBar.location": "left",
+    "workbench.activityBar.visible": true,
+    "workbench.statusBar.visible": true,
+    "editor.fontSize": 15,
+    "files.autoSave": "off",
+    "editor.fontFamily": "'Droid Sans Mono', 'Currier New', monospace, 'Droid Sans Fallback'",
+    "editor.tabSize": 2,
+    "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/.DS_Store": true
+    }
+  ,
+  "editor.cursorStyle": "underline",
+  "editor.fontWeight": "normal",
+  "git.enabled": false
+}
