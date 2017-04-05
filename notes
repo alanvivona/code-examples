@@ -1,0 +1,9 @@
+node - server
+express - web server and templates rendering
+mongodb - installed using moongoose (an npm package for mongoDB)
+        - have to start mongod to have the mongo db enable
+        - create db structure
+        - create models and schemas for each collection
+
+nodemon - updates automatically the node code without having to restart the node server
+
