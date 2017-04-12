@@ -12,7 +12,7 @@ const genreSchema = mongoose.Schema({
   }
 })
 
-module.exports = mongoose.model('Genre', genreSchema)
+const Genre = module.exports = mongoose.model('Genre', genreSchema)
 
 module.exports.getGenres = function(callback, options){
   Genre.find(callback)

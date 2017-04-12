@@ -22,8 +22,6 @@ const bookSchema = mongoose.Schema({
 
 const Book = module.exports = mongoose.model('Book', bookSchema)
 
-const Genre = module.exports = mongoose.model('Genre', genreSchema) 
-
-module.exports.getGenres = function(callback, options){
-  Genre.find(callback)
+module.exports.getBooks = function(callback, options){
+  Book.find(callback)
 }
