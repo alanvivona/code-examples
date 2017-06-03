@@ -1,7 +1,7 @@
 # codeexamples
 
-This repo is ment to be a playground to test/experiments with new concepts, languajes or frameworks.
-The examples tend to be really simple and concrete.
+This repo is ment to be a playground to test/experiment with new concepts, languajes or frameworks.
+The examples tend to be really simple.
 
 
 ## javascript-frameworks
