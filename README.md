@@ -4,12 +4,13 @@ This repo is ment to be a playground to test/experiment with new concepts, langu
 The examples tend to be really simple.
 
 
-## javascript-frameworks
+## javascript-frameworks-and-stuff
   - CycleJS
   - RxJS => _Resources for RxJS :_ [docs](http://reactivex.io/rxjs/), [tutorials](http://reactivex.io/tutorials.html), [vscode-snippets](https://marketplace.visualstudio.com/items?itemName=alan-vivona.rxjssnippets)
   - ReactJS
   - NodeJS
   - jQuery
+  - Typescript
 
 ## javascript-functional-programming
   - Higher Order Functions
