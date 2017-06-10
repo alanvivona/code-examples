@@ -1,0 +1,34 @@
+.fixture {
+	.fechas {
+		width: 80%;
+		border: 1px solid $darkGrey;
+		margin: 15px auto;
+		tr {
+			text-align: center;
+			font-size: 12px;
+		}
+		thead {
+			tr {
+				background-color: $violet;
+				color: white;
+				th {
+					padding: 2px 4px;
+				}
+			}
+		}
+
+		tbody {
+			tr:nth-child(even) {
+				background-color: $grey;
+			}
+			td {
+				padding: 2px 4px;
+			}
+		}
+
+		.score {
+			background-color: $darkGrey;
+			color: white;
+		}
+	}
+}

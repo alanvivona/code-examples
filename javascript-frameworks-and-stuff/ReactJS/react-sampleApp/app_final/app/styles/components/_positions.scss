@@ -1,0 +1,19 @@
+.positions {
+	.table {
+		th, td {
+			text-align: left;
+			padding: 5px 10px;
+		}
+		thead {
+			tr {
+				background-color: $violet;
+				color: white;
+			}
+		}
+		tbody {
+			tr:nth-child(even) {
+				background-color: $lightGrey;
+			}
+		}
+	}
+}

@@ -1,0 +1,16 @@
+/* Base */
+@import "base/variables";
+@import "base/normalize";
+@import "base/base";
+
+/* Containers */
+@import "containers/home";
+@import "containers/estadisticas";
+@import "containers/equipo";
+@import "containers/contacto";
+
+/* Components */
+@import "components/teamsGrid";
+@import "components/positions";
+@import "components/fixture";
+@import "components/playersGrid";
