@@ -3,7 +3,6 @@
 This repo is ment to be a playground to test/experiment with new concepts, languajes or frameworks.
 The examples tend to be really simple.
 
-
 ## javascript-frameworks-and-stuff
   - CycleJS
   - RxJS => _Resources for RxJS :_ [docs](http://reactivex.io/rxjs/), [tutorials](http://reactivex.io/tutorials.html), [vscode-snippets](https://marketplace.visualstudio.com/items?itemName=alan-vivona.rxjssnippets)
@@ -11,6 +10,10 @@ The examples tend to be really simple.
   - NodeJS
   - jQuery
   - Typescript
+  - D3 
+    - npm install
+    - http-server
+    - localhost:8080   
 
 ## javascript-functional-programming
   - Higher Order Functions
