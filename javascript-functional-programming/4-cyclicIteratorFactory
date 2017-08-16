@@ -1,0 +1,24 @@
+const cyclicIteratorFactory = (obj, index, from, to) => {
+  let start = (from != undefined) ? from : 0
+  let end = (to != undefined) ? to : obj[index].length
+  let itemIndex = start
+  let next = () => {
+    let item = obj[index][itemIndex]
+    itemIndex++
+    if(itemIndex > end) {
+      itemIndex = start
+    }
+    return item
+  }
+  return {next}
+}
+
+let obj = { arr: [0,1,2,3,4,5,6,7,8,9] }
+// let it = cyclicIteratorFactory(obj, 'arr')
+// let it = cyclicIteratorFactory(obj, 'arr', 2)
+let it1 = cyclicIteratorFactory(obj, 'arr', 2, 9)
+
+let matrix = [[0,1,2,3,4,5,6,7,8,9],['a','b','c','d','e','f','g']]
+// let it2 = cyclicIteratorFactory(matrix, 1)
+// let it2 = cyclicIteratorFactory(matrix, 1, 2)
+let it2 = cyclicIteratorFactory(matrix, 1, 2, 4)
